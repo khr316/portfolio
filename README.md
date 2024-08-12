@@ -17,9 +17,9 @@
 <br>
 
 ### 📂 주요 프로젝트
-- [**KHR BLOG**](https://github.com/khr316/awesome-portfolio) - 개인 블로그
-- [**유실물 웹 플랫폼**](https://github.com/khr316/task-manager) - 분실물, 습득물 찾기 웹 사이트 개발
-- [**인스타 인사이트 분석**](https://github.com/khr316/e-commerce-site) - 파이썬을 활용한 데이터 분석
+- [**KHR BLOG**](https://github.com/khr316/khrblog) - 개인 블로그
+- [**유실물 웹 플랫폼**](https://github.com/khr316/sprint1) - 분실물, 습득물 찾기 웹 사이트 개발
+- [**인스타 인사이트 분석**](https://github.com/khr316/mini_project) - 파이썬을 활용한 데이터 분석
 
 <br>
 
