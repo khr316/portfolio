@@ -3,9 +3,7 @@
 </a>
 
 
-# 👋
-
-웹 개발자 [김혜림](https://github.com/k.march.hr)
+# 👋 [KHR316](https://github.com/k.march.hr)
 
 ### 🚀 기술 스택
 - **프로그래밍 언어**: Java, JavaScript, Html, Python, MySQL, R
