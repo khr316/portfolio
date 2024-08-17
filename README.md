@@ -9,7 +9,8 @@
 <br>
 
 ### 📂 프로젝트
-- [**인스타 인사이트 분석**](https://github.com/khr316/mini_project) - 파이썬을 활용한 데이터 분석
+- [**인스타 인사이트 분석**](https://github.com/khr316/instagram-insite) - 파이썬을 활용한 데이터 분석
+- [**분실물 웹 플랫폼**](https://github.com/khr316/lost-find) - 스프링부트 웹 개발
 
 <br>
 
