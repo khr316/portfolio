@@ -14,17 +14,12 @@
 <br>
 
 ### 📫 연락처
-- [블로그](https://khr316.tistory.com/)
+- [티스토리](https://khr316.tistory.com/)
 - [인스타그램](https://instagram.com/k.march.hr)
 
 <br>
 
 ### 📊 GitHub 통계
 ![김혜림's GitHub Stats](https://github-readme-stats.vercel.app/api?username=khr316&show_icons=true&hide_title=true&hide=prs&count_private=true&theme=radical)
-
-<br>
-
-### 👩🏻‍💻 포트폴리오
-![웹 포트폴리오](도메인주소)
 
 <br>
