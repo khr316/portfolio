@@ -9,16 +9,11 @@
 <br>
 
 ### 🚀 기술 스택
-- **프로그래밍 언어**: Java, JavaScript, Html, Python, MySQL, R
-- **프레임워크**: 
-- **도구**: 
-- **기타**:
+- Java, JavaScript, Html, Python, MySQL, R
 
 <br>
 
-### 📂 주요 프로젝트
-- [**KHR BLOG**](https://github.com/khr316/khrblog) - 개인 블로그
-- [**유실물 웹 플랫폼**](https://github.com/khr316/sprint1) - 분실물, 습득물 찾기 웹 사이트 개발
+### 📂 프로젝트
 - [**인스타 인사이트 분석**](https://github.com/khr316/mini_project) - 파이썬을 활용한 데이터 분석
 
 <br>
@@ -34,6 +29,7 @@
 
 <br>
 
-### 🎯 목표
+### 👩🏻‍💻 포트폴리오
+![웹 포트폴리오](도메인주소)
 
 <br>
