@@ -16,7 +16,7 @@
 
 ### 📫 연락처
 - [티스토리](https://khr316.tistory.com/)
-- [인스타그램](https://instagram.com/k.march.hr)
+- [인스타그램](https://instagram.com/khr_coding)
 
 <br>
 
