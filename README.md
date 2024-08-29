@@ -4,7 +4,7 @@
 <br>
 
 ### 🚀 기술 스택
-- Java, JavaScript, Html, Python, MySQL, R
+- Java, JavaScript, Html, css, Python, MySQL, R
 
 <br>
 
