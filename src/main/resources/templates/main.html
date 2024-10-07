@@ -4,148 +4,106 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>김혜림 - 웹 개발자 포트폴리오</title>
+    <title>김혜림 - 백엔드 개발자 포트폴리오</title>
     <link rel="stylesheet" href="/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
     <!-- 헤더 -->
     <header>
-        <div class="container">
-            <h1>KHR's IT STORY</h1>
-        </div>
+        <h1>김혜림의 포트폴리오</h1>
+        <p>백엔드 개발자 및 프론트엔드 기술 보유</p>
+        <button id="toggle-theme">다크 모드</button>
     </header>
 
     <!-- 네비게이션 바 -->
     <nav>
-        <div class="container">
-            <ul>
-                <li><a href="#profile">프로필</a></li>
-                <li><a href="#career">경력</a></li>
-                <li><a href="#skills">기술</a></li>
-                <li><a href="#projects">프로젝트</a></li>
-                <li><a href="#education">학력</a></li>
-                <li><a href="#contact">연락처</a></li>
-            </ul>
-        </div>
+        <ul>
+            <li><a href="#profile">프로필</a></li>
+            <li><a href="#career">경력</a></li>
+            <li><a href="#projects">프로젝트</a></li>
+            <li><a href="#skills">기술</a></li>
+            <li><a href="#education">학력</a></li>
+            <li><a href="#contact">연락처</a></li>
+        </ul>
     </nav>
 
     <!-- 섹션들 -->
     <main>
-        <!-- 프로필 섹션 -->
-        <section id="profile" class="container">
+        <section id="profile">
             <h2>프로필</h2>
-            <div class="profile-grid">
-                <div class="profile-item">김혜림<br>2000-03-16</div>
-                <div class="profile-item">010-4849-3018<br>
-                    <a href="mailto:ulsan20204109@gmail.com" style="text-decoration: none;color:black;">
-                        ulsan20204109@gmail.com</a>
-                </div>
-                <div class="profile-item">울산대학교 수학 전공</div>
-            </div>
+            <p>안녕하세요, 저는 김혜림입니다. 데이터베이스 및 서버 구축에 대한 전문성을 가지고 있으며, 프론트엔드 개발에 대한 경험도 있습니다.</p>
+            <p>다양한 기술 스택을 보유하고 있으며, 문제 해결 능력과 협업 능력이 뛰어난 개발자입니다.</p>
         </section>
 
-        <!-- 경력 섹션 -->
-        <section id="career" class="container">
+        <section id="career">
             <h2>경력</h2>
-            <div class="experience-item">
-                <h3>경력1</h3>
-                <p>기간</p>
-                <p>내용</p>
-                </div>
+            <h3>ABC 회사 - 백엔드 개발자</h3>
+            <p>기간: 2020.01 ~ 2023.12</p>
+            <p>주요 업무: RESTful API 개발, 데이터베이스 설계 및 최적화, 클라우드 기반 서비스 구축</p>
+            <h3>XYZ 회사 - 프론트엔드 개발자</h3>
+            <p>기간: 2018.06 ~ 2019.12</p>
+            <p>주요 업무: 웹 애플리케이션 UI/UX 디자인, JavaScript 및 React를 이용한 프론트엔드 개발</p>
         </section>
 
-        <!-- 기술 섹션 -->
-        <section id="skills" class="container">
-            <h2>기술</h2>
-            <div class="skills">
-                <div class="skill">
-                    <h3>Java</h3>
-                    <p>웹 개발 (Spring Boot) 및 전반적인 소프트웨어 개발에 능숙</p>
-                </div>
-                <div class="skill">
-                    <h3>JavaScript</h3>
-                    <p>프론트엔드 개발에 활용 (HTML/CSS와 함께 사용)</p>
-                </div>
-                <div class="skill">
-                    <h3>Python</h3>
-                    <p>데이터 분석 및 자동화 스크립트 작성에 능숙</p>
-                </div>
-                <div class="skill">
-                    <h3>R</h3>
-                    <p>데이터 분석 및 통계 모델링</p>
-                </div>
-                <div class="skill">
-                    <h3>HTML5</h3>
-                    <p>웹 페이지 구조 설계 및 마크업에 능숙</p>
-                </div>
-                <div class="skill">
-                    <h3>CSS3</h3>
-                    <p>스타일링 및 반응형 웹 디자인에 능숙</p>
-                </div>
-            </div>
-        </section>
-
-        <!-- 프로젝트 섹션 -->
-        <section id="projects" class="container">
+        <section id="projects">
             <h2>프로젝트</h2>
-            <div class="projects">
-                <div class="project">
-                    <img src="/images/메인.png" alt="분실물 플랫폼 구축" class="project-image">
-                    <h3>분실물 플랫폼 구축</h3>
-                    <p><strong>개발 동기:</strong> 분실물 관리를 체계화하기 위해 사용자 친화적인 플랫폼을 개발했습니다.</p>
-                    <p><strong>개발 과정:</strong> 직관적인 사용자 인터페이스(UI)를 설계하고, Spring Boot를 활용해 백엔드를 구축했습니다. 데이터베이스는 MySQL을
-                        사용해 안정적이고 효율적인 데이터 관리를 실현했습니다.</p>
-                    <p><strong>프로젝트 코드:</strong> <a href="https://github.com/khr316/sprint1" target="_blank"
-                            class="project-link">깃허브</a></p>
-                </div>
-                <!-- 추가 프로젝트를 여기에 추가할 수 있습니다 -->
+            <div class="project">
+                <h3>온라인 쇼핑몰 개발</h3>
+                <p>사용된 기술: Spring Boot, MySQL, Thymeleaf</p>
+                <p>프로젝트 설명: 사용자가 상품을 검색하고 장바구니에 담아 결제할 수 있는 기능을 구현했습니다.</p>
+                <a href="https://github.com/khr316/e-commerce-project" target="_blank">깃허브 링크</a>
+            </div>
+            <div class="project">
+                <h3>개인 블로그 웹사이트</h3>
+                <p>사용된 기술: Node.js, Express, MongoDB</p>
+                <p>프로젝트 설명: 사용자가 블로그 글을 작성하고 댓글을 남길 수 있는 웹 애플리케이션을 개발했습니다.</p>
+                <a href="https://github.com/khr316/blog-project" target="_blank">깃허브 링크</a>
             </div>
         </section>
 
-        <!-- 학력 섹션 -->
-        <section id="education" class="container">
+        <section id="skills">
+            <h2>기술</h2>
+            <ul>
+                <li>Java (Spring Boot)</li>
+                <li>JavaScript (React, Node.js)</li>
+                <li>Python (Flask, Django)</li>
+                <li>MySQL, MongoDB</li>
+                <li>HTML5, CSS3</li>
+                <li>RESTful API 개발</li>
+            </ul>
+        </section>
+
+        <section id="education">
             <h2>학력</h2>
-            <div class="education-item">
-                <h3>KEPCO Digital Boot Camp</h3>
-                <p><strong>기간:</strong> 2024.05.01 ~ 2024.10.25</p>
-                <p><strong>기관:</strong> 한국전력</p>
-                <p><strong>상세:</strong> 웹 개발 및 데이터 분석 심화 교육을 통해 최신 기술 트렌드를 습득하고, 실무 프로젝트를 통해 문제 해결 능력과
-                    실무 역량을 강화했습니다.</p>
-            </div>
-            <div class="education-item">
-                <h3>동국대학교 (편입)</h3>
-                <p><strong>응용통계학전공</strong><br><br>
-                    통계학 기초와 R프로그래밍, Python, MySQL 등 데이터 분석과 관련된 핵심 기술을 습득했습니다. 전공 변경을 통해 다양한 분야에 대한
-                    적응력을 기르게 되었습니다.</p>
-            </div>
-            <div class="education-item">
-                <h3>울산대학교 졸업</h3>
-                <p><strong>수학전공</strong><br><br>
-                    선형대수학, 이산수학 등 수학적 사고를 통해 논리적 문제 해결 능력을 배양했으며, Python을 활용한 기초 프로그래밍 역량을 쌓았습니다.</p>
-            </div>
+            <h3>서울대학교 - 컴퓨터공학과</h3>
+            <p>졸업년도: 2018</p>
+            <p>학습한 주요 과목: 알고리즘, 데이터베이스, 웹 개발, 시스템 프로그래밍</p>
         </section>
 
-        <!-- 연락처 섹션 -->
-        <section id="contact" class="container">
+        <section id="contact">
             <h2>연락처</h2>
-            <p><strong>GitHub:</strong> <a href="https://github.com/khr316"
-                    target="_blank">https://github.com/khr316</a></p>
-            <p><strong>Tistory:</strong> <a href="https://khr316.tistory.com"
-                    target="_blank">https://khr316.tistory.com</a></p>
+            <form id="contact-form">
+                <label for="name">이름:</label>
+                <input type="text" id="name" required>
+
+                <label for="email">이메일:</label>
+                <input type="email" id="email" required>
+
+                <label for="message">메시지:</label>
+                <textarea id="message" rows="4" required></textarea>
+
+                <button type="submit">전송</button>
+            </form>
+            <p>Email: <a href="mailto:ulsan20204109@gmail.com">ulsan20204109@gmail.com</a></p>
+            <p>GitHub: <a href="https://github.com/khr316" target="_blank">khr316</a></p>
         </section>
     </main>
 
-    <!-- 맨 위로 가기 버튼 -->
-    <button id="scrollTopBtn" title="맨 위로 가기">&#8679;</button>
-
-
-    <!-- 푸터 -->
     <footer>
-        <div class="container">
-            <p>&copy; 2024 Kim Hyerim Portfolio. All rights reserved.</p>
-        </div>
+        <p>&copy; 2024 Kim Hyerim. All rights reserved.</p>
     </footer>
 
     <script src="/script.js"></script>

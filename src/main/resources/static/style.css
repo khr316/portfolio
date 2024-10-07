@@ -5,42 +5,34 @@ body {
     padding: 0;
     color: #333;
     line-height: 1.6;
+    transition: background-color 0.3s, color 0.3s;
 }
 
-.container {
-    width: 90%;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
+/* 다크 모드 스타일 */
+body.dark {
+    background-color: #121212;
+    color: #f1f1f1;
 }
 
-/* 헤더 스타일 */
 header {
     background: skyblue;
     color: #fff;
-    padding: 10px 0;
     text-align: center;
+    padding: 20px;
 }
 
-header h1 {
-    margin: 0;
-    font-size: 2.5em;
+header.dark {
+    background: #1e1e1e;
 }
 
-header p {
-    font-size: 1.2em;
-    margin: 5px 0 20px;
-}
-
-/* 네비게이션 바 스타일 */
 nav {
     background: #333;
+    color: #fff;
 }
 
 nav ul {
     list-style: none;
     padding: 0;
-    margin: 0;
     text-align: center;
 }
 
@@ -51,183 +43,61 @@ nav ul li {
 nav ul li a {
     color: #fff;
     padding: 15px 20px;
-    display: inline-block;
-    text-decoration: none;
-}
-
-nav ul li a:hover {
-    background: #555;
 }
 
 /* 메인 콘텐츠 스타일 */
 main {
-    padding: 40px 0;
+    padding: 20px;
 }
 
 section {
-    margin-bottom: 40px;
+    margin: 20px 0;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+}
+
+section.visible {
+    opacity: 1;
+    transform: translateY(0);
 }
 
 section h2 {
     border-bottom: 2px solid #4CAF50;
-    padding-bottom: 10px;
-    font-size: 1.8em;
 }
 
-/* 프로필 섹션 스타일 */
-.profile-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-}
-
-.profile-item {
-    background: #f9f9f9;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-/* 기술 섹션 스타일 */
-.skills {
+/* 연락 양식 스타일 */
+form {
     display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
+    flex-direction: column;
 }
 
-.skill {
-    flex: 1 1 200px;
-    background: #f9f9f9;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    text-align: center;
+label {
+    margin-top: 10px;
 }
 
-.skill-logo {
-    max-width: 100px;
-    margin-bottom: 10px;
+input, textarea {
+    padding: 10px;
+    margin-top: 5px;
 }
 
-.skill h3 {
-    margin: 10px 0;
+/* 버튼 스타일 */
+button {
+    margin-top: 10px;
+    padding: 10px;
+    background: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
 }
 
-.skill p {
-    font-size: 0.9em;
-}
-
-/* 프로젝트 섹션 스타일 */
-.projects {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-}
-
-.project {
-    flex: 1 1 300px;
-    background: #f9f9f9;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-.project-image {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
-}
-
-.project-link {
-    color: #4CAF50;
-    text-decoration: none;
-}
-
-.project-link:hover {
-    text-decoration: underline;
+button:hover {
+    background: #45a049;
 }
 
 /* 푸터 스타일 */
 footer {
     background: #f1f1f1;
     text-align: center;
-    padding: 10px 0;
-}
-
-footer p {
-    margin: 0;
-}
-
-/* 반응형 디자인 */
-@media (max-width: 768px) {
-    .container {
-        width: 95%;
-    }
-
-    nav ul {
-        padding: 0;
-    }
-
-    nav ul li {
-        display: block;
-        margin: 0;
-    }
-
-    nav ul li a {
-        display: block;
-        padding: 10px;
-    }
-}
-
-/* 학력 섹션 스타일 */
-.education-item {
-    background: #f9f9f9;
-    padding: 20px;
-    margin-bottom: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-}
-
-.education-item h3 {
-    margin-top: 0;
-    font-size: 1.5em;
-    color: #4CAF50;
-}
-
-.education-item p {
-    margin: 10px 0;
-    font-size: 1em;
-}
-
-.education-item p strong {
-    display: inline-block;
-    width: 120px;
-    font-weight: 700;
-    color: #333;
-}
-
-/* 맨 위로 가기 버튼 스타일 */
-#scrollTopBtn {
-    display: none; /* 초기에는 숨김 */
-    position: fixed;
-    bottom: 40px;
-    right: 40px;
-    z-index: 99;
-    font-size: 18px;
-    border: none;
-    outline: none;
-    background-color: skyblue;
-    color: white;
-    cursor: pointer;
-    padding: 15px;
-    border-radius: 50%;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-}
-
-#scrollTopBtn:hover {
-    background-color: #555;
-}
-
-.project-image {
-    width: 800px
+    padding: 10px;
 }
