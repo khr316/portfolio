@@ -5,6 +5,7 @@ body {
     padding: 0;
     color: #333;
     line-height: 1.6;
+    transition: background-color 0.3s, color 0.3s;
 }
 
 .container {
@@ -25,11 +26,6 @@ header {
 header h1 {
     margin: 0;
     font-size: 2.5em;
-}
-
-header p {
-    font-size: 1.2em;
-    margin: 5px 0 20px;
 }
 
 /* 네비게이션 바 스타일 */
@@ -104,19 +100,6 @@ section h2 {
     text-align: center;
 }
 
-.skill-logo {
-    max-width: 100px;
-    margin-bottom: 10px;
-}
-
-.skill h3 {
-    margin: 10px 0;
-}
-
-.skill p {
-    font-size: 0.9em;
-}
-
 /* 프로젝트 섹션 스타일 */
 .projects {
     display: flex;
@@ -130,104 +113,48 @@ section h2 {
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
 }
 
-.project-image {
-    width: 100%;
+.project img {
+    max-width: 100%;
     height: auto;
     border-radius: 8px;
 }
 
 .project-link {
-    color: #4CAF50;
+    color: #007BFF;
     text-decoration: none;
-}
-
-.project-link:hover {
-    text-decoration: underline;
-}
-
-/* 푸터 스타일 */
-footer {
-    background: #f1f1f1;
-    text-align: center;
-    padding: 10px 0;
-}
-
-footer p {
-    margin: 0;
-}
-
-/* 반응형 디자인 */
-@media (max-width: 768px) {
-    .container {
-        width: 95%;
-    }
-
-    nav ul {
-        padding: 0;
-    }
-
-    nav ul li {
-        display: block;
-        margin: 0;
-    }
-
-    nav ul li a {
-        display: block;
-        padding: 10px;
-    }
-}
-
-/* 학력 섹션 스타일 */
-.education-item {
-    background: #f9f9f9;
-    padding: 20px;
-    margin-bottom: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-}
-
-.education-item h3 {
-    margin-top: 0;
-    font-size: 1.5em;
-    color: #4CAF50;
-}
-
-.education-item p {
-    margin: 10px 0;
-    font-size: 1em;
-}
-
-.education-item p strong {
-    display: inline-block;
-    width: 120px;
-    font-weight: 700;
-    color: #333;
 }
 
 /* 맨 위로 가기 버튼 스타일 */
 #scrollTopBtn {
-    display: none; /* 초기에는 숨김 */
     position: fixed;
-    bottom: 40px;
-    right: 40px;
-    z-index: 99;
-    font-size: 18px;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    background-color: #333;
+    color: #fff;
     border: none;
-    outline: none;
-    background-color: skyblue;
-    color: white;
+    padding: 10px;
+    border-radius: 5px;
     cursor: pointer;
-    padding: 15px;
-    border-radius: 50%;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 }
 
-#scrollTopBtn:hover {
-    background-color: #555;
+/* 푸터 스타일 */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
 }
 
-.project-image {
-    width: 800px
+/* 미디어 쿼리 */
+@media (max-width: 600px) {
+    .profile-grid {
+        grid-template-columns: 1fr;
+    }
+    .skills, .projects {
+        flex-direction: column;
+    }
 }
