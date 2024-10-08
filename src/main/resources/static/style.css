@@ -113,32 +113,23 @@ section h2 {
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    text-align: center;
 }
 
-.project img {
-    max-width: 100%;
-    height: auto;
+.project h3 {
+    margin-top: 0;
+}
+
+/* 학력 섹션 스타일 */
+.education-item {
+    background: #f9f9f9;
+    padding: 20px;
     border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-.project-link {
-    color: #007BFF;
-    text-decoration: none;
-}
-
-/* 맨 위로 가기 버튼 스타일 */
-#scrollTopBtn {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    display: none;
-    background-color: #333;
-    color: #fff;
-    border: none;
-    padding: 10px;
-    border-radius: 5px;
-    cursor: pointer;
+/* 연락처 섹션 스타일 */
+#contact p {
+    margin: 5px 0;
 }
 
 /* 푸터 스타일 */
@@ -149,12 +140,35 @@ footer {
     padding: 10px 0;
 }
 
-/* 미디어 쿼리 */
-@media (max-width: 600px) {
+/* 스크롤 버튼 스타일 */
+#scrollTopBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    padding: 10px 15px;
+    cursor: pointer;
+    display: none; /* Initially hidden */
+}
+
+#scrollTopBtn:hover {
+    background: #45a049;
+}
+
+/* 반응형 디자인 */
+@media (max-width: 768px) {
     .profile-grid {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr; /* Stack items on small screens */
     }
-    .skills, .projects {
-        flex-direction: column;
+
+    nav ul li {
+        display: block; /* Stack nav items on small screens */
+    }
+
+    .projects, .skills {
+        flex-direction: column; /* Stack project and skill items */
     }
 }
