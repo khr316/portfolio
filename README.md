@@ -296,7 +296,7 @@
                         프로젝트.</p>
                     <p><strong>기술 스택:</strong> Python, Selenium, Pandas, matplotlib, matplotlib</p>
                     <p><strong>개선사항:</strong> 게시물 사진 유형, 팔로워 연령대, 성별 및 비팔로워 참여를 고려한 전략 도출 필요.</p>
-                    <p><strong>프로젝트 코드:</strong> <a href="https://github.com/khr316/insta-strategy" target="_blank"
+                    <p><strong>프로젝트 코드:</strong> <a href="https://github.com/khr316/instagram-insite" target="_blank"
                             class="project-link">GitHub</a></p>
                 </div>
                 <div class="project">
@@ -328,7 +328,7 @@
                     <p><strong>개요:</strong> 울산 내 상권 중 하삼동 커피 위치를 데이터로 추출하여 Folium 라이브러리를 사용해 지도에 시각화한 프로젝트</p>
                     <p><strong>기술 스택:</strong> Python, Folium, Pandas, Numpy, Matplotlib, Seaborn</p>
                     <p><strong>프로젝트 코드:</strong> <a href="https://blog.naver.com/xhfhxhsxhs/223417673938"
-                            target="_blank" class="project-link">GitHub</a></p>
+                            target="_blank" class="project-link">blog</a></p>
                 </div>
 
                 <div class="project">
@@ -336,7 +336,7 @@
                     <p><strong>개요:</strong> 울산 인구 데이터를 기반으로 R의 ARIMA 모델을 활용해 미래 인구 수를 예측한 프로젝트</p>
                     <p><strong>기술 스택:</strong> R, ARIMA, Forecast</p>
                     <p><strong>프로젝트 코드:</strong> <a href="https://blog.naver.com/xhfhxhsxhs/223422834575"
-                            target="_blank" class="project-link">GitHub</a></p>
+                            target="_blank" class="project-link">blog</a></p>
                     <p><a href="https://blog.naver.com/xhfhxhsxhs/223424041706" target="_blank"
                             class="project-link"></a></p>
                 </div>
